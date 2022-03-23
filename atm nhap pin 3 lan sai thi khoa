@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int a;
+	int limit;
+	limit=0;
+	system("cls");
+	
+	printf("vietcombank\n");
+	
+
+	
+    do{
+	
+    	printf("nhap ma pin\n");
+    	scanf("%d",&a);
+    	limit++;
+		}
+    
+    while(a!=123&&limit<3);  
+    
+    if(a==123){
+    printf("Thanh cong!\n");
+	}
+    else
+    printf("khoe the\n");
+	
+	
+		
+	
+	return 0;
+}
